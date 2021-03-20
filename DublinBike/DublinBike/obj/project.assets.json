@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\red56\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\evanp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\red56\\Documents\\prog irland\\Back end\\DublinBike\\DublinBike\\DublinBike.csproj",
+      "projectUniqueName": "C:\\Users\\evanp\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
       "projectName": "DublinBike",
-      "projectPath": "C:\\Users\\red56\\Documents\\prog irland\\Back end\\DublinBike\\DublinBike\\DublinBike.csproj",
-      "packagesPath": "C:\\Users\\red56\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\red56\\Documents\\prog irland\\Back end\\DublinBike\\DublinBike\\obj\\",
+      "projectPath": "C:\\Users\\evanp\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
+      "packagesPath": "C:\\Users\\evanp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\evanp\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\red56\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\evanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

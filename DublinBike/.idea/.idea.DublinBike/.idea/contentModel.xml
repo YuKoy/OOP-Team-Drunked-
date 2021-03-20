@@ -9,9 +9,18 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="BikesController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
+        <e p="Data" t="Include">
+          <e p="MvcBikeContext.cs" t="Include" />
+        </e>
         <e p="DublinBike.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="InitialCreate.cs" t="Include" />
+          <e p="MvcBikeContextModelSnapshot.cs" t="Include" />
+          <e p="Rating.cs" t="Include" />
+        </e>
         <e p="Models" t="Include">
           <e p="DublinStation.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />

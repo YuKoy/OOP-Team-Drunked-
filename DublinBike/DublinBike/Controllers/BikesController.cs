@@ -23,21 +23,15 @@ namespace DublinBike.Controllers
         public async Task<IActionResult> Index(string bikeGenre , string searchString)
         {
             IQueryable<string> genreQuery = from m in _context.Bike
-                                            orderby m.Genre
-                                            select m.Genre;
+                                            orderby m.Name
+                                            select m.Name;
             
 
             var bikes = from currentBikeItem in _context.Bike select currentBikeItem;
 
-
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                bikes = bikes.Where(s => s.Title.Contains(searchString));
-            }
-
             if (!String.IsNullOrEmpty(bikeGenre))
             {
-                bikes = bikes.Where(s => s.Genre.Contains(bikeGenre));
+                bikes = bikes.Where(s => s.Name.Contains(bikeGenre));
             }
 
             var bikeGenreVM = new DublinStationGenre
@@ -75,7 +69,7 @@ namespace DublinBike.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Bike bike)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] DublinStation bike)
         {
             if (ModelState.IsValid)
             {
@@ -103,7 +97,7 @@ namespace DublinBike.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] Bike bike)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] DublinStation bike)
         {
             if (id != bike.Id)
             {

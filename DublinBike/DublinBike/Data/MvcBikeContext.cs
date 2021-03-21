@@ -14,7 +14,7 @@ namespace DublinBike.Data
 
         }
 
-        public DbSet<Bike> Bike {get; set;}
+        public DbSet<DublinStation> Bike {get; set;}
 
     }
 }

@@ -10,6 +10,7 @@ namespace DublinBike.Models
     public class DublinStationGenre
     {
         public List<DublinStation> DublinStations { get; set; }
+
         public SelectList Names { get; set; }
 
         public string StationName { get; set; }

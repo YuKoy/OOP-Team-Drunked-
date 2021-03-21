@@ -38,13 +38,13 @@
                 @Html.DisplayNameFor(model => model.DublinStations[0].Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DublinStations[0].Adress)
+                @Html.DisplayNameFor(model => model.DublinStations[0].adress)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DublinStations[0].Latitude)
+                @Html.DisplayNameFor(model => model.DublinStations[0].latitude)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DublinStations[0].Longitude)
+                @Html.DisplayNameFor(model => model.DublinStations[0].longitude)
             </th>
             <th></th>
         </tr>
@@ -60,13 +60,13 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Adress)
+                    @Html.DisplayFor(modelItem => item.adress)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Latitude)
+                    @Html.DisplayFor(modelItem => item.latitude)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Longitude)
+                    @Html.DisplayFor(modelItem => item.longitude)
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

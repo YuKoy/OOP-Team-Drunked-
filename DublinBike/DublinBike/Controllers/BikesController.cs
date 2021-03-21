@@ -40,10 +40,10 @@ namespace DublinBike.Controllers
                 bikes = bikes.Where(s => s.Genre.Contains(bikeGenre));
             }
 
-            var bikeGenreVM = new BikeGenreViewModel
+            var bikeGenreVM = new DublinStationGenre
             {
-                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
-                Bikes = await bikes.ToListAsync()
+                Names = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                DublinStations = await bikes.ToListAsync()
 
             };
             

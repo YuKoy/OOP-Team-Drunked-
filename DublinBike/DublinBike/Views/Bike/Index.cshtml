@@ -1,4 +1,4 @@
-﻿@model DublinBike.Models.MovieGenreViewModel
+﻿@model DublinBike.Models.DublinStationGenre
 
 @{
     ViewData["Title"] = "Index";
@@ -11,10 +11,10 @@
 </p>
 
 
-<form asp-controller="Movies" asp-action="Index" method="get">
+<form asp-controller="DublinStations" asp-action="Index" method="get">
     <p>
 
-        <select asp-for="MovieGenre" asp-items="Model.Genres">
+        <select asp-for="StationName" asp-items="Model.Names">
             <option value="">All</option>
         </select>
 
@@ -32,25 +32,25 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Number)
+                @Html.DisplayNameFor(model => model.DublinStations[0].Number)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Name)
+                @Html.DisplayNameFor(model => model.DublinStations[0].Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Adress)
+                @Html.DisplayNameFor(model => model.DublinStations[0].Adress)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Latitude)
+                @Html.DisplayNameFor(model => model.DublinStations[0].Latitude)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Movies[0].Longitude)
+                @Html.DisplayNameFor(model => model.DublinStations[0].Longitude)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model.Movies)
+        @foreach (var item in Model.DublinStations)
         {
             <tr>
                 <td>

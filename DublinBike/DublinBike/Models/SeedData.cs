@@ -16,23 +16,23 @@ namespace DublinBike.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<MvcBikeContext>>()))
             {
-                
+
                 if (context.Bike.Any())
                 {
-                    return;   
+                    return;
                 }
 
                 context.Bike.AddRange(
-                    new Bike
+                    new DublinStation
                     {
                         Number = 42,
-                        Name =  "SMITHFIELD NORTH",
+                        Name = "SMITHFIELD NORTH",
                         adress = "Smithfield North",
                         latitude = 53.349562,
                         longitude = -6.278198
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 30,
                         Name = "PARNELL SQUARE NORTH",
@@ -41,7 +41,7 @@ namespace DublinBike.Models
                         longitude = -6.265305
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 54,
                         Name = "CLONMEL STREET",
@@ -50,7 +50,7 @@ namespace DublinBike.Models
                         longitude = -6.276142
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 108,
                         Name = "AVONDALE ROAD",
@@ -59,7 +59,7 @@ namespace DublinBike.Models
                         longitude = -6.276142
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 56,
                         Name = "MOUNT STREET LOWER",
@@ -68,7 +68,7 @@ namespace DublinBike.Models
                         longitude = -6.24153
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 6,
                         Name = "CHRISTCHURCH PLACE",
@@ -77,7 +77,7 @@ namespace DublinBike.Models
                         longitude = -6.27012
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 18,
                         Name = "GRANTHAM STREET",
@@ -86,7 +86,7 @@ namespace DublinBike.Models
                         longitude = -6.265436
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 42,
                         Name = "PEARSE STREET",
@@ -95,7 +95,7 @@ namespace DublinBike.Models
                         longitude = -6.250427
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 52,
                         Name = "YORK STREET EAST",
@@ -104,7 +104,7 @@ namespace DublinBike.Models
                         longitude = -6.262003
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 48,
                         Name = "EXCISE WALK",
@@ -113,7 +113,7 @@ namespace DublinBike.Models
                         longitude = -6.244239
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 13,
                         Name = "FITZWILLIAM SQUARE WEST",
@@ -122,7 +122,7 @@ namespace DublinBike.Models
                         longitude = -6.252825
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 43,
                         Name = "PORTOBELLO ROAD",
@@ -131,7 +131,7 @@ namespace DublinBike.Models
                         longitude = -6.268044
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 81,
                         Name = "ST. JAMES HOSPITAL (CENTRAL)",
@@ -140,7 +140,7 @@ namespace DublinBike.Models
                         longitude = -6.295594
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 31,
                         Name = "PARNEL STREET",
@@ -149,7 +149,7 @@ namespace DublinBike.Models
                         longitude = -6.265125
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 98,
                         Name = "FREDERIC STREET SOUTH",
@@ -158,7 +158,7 @@ namespace DublinBike.Models
                         longitude = -6.256853
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 23,
                         Name = "CUSTOM HOUSE",
@@ -167,7 +167,7 @@ namespace DublinBike.Models
                         longitude = -6.254662
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 106,
                         Name = "RATHDOWN ROAD",
@@ -175,8 +175,8 @@ namespace DublinBike.Models
                         latitude = 53.35893,
                         longitude = -6.280337
                     },
-                    
-                    new Bike
+
+                    new DublinStation
                     {
                         Number = 112,
                         Name = "NORTH CIRCULAR ROAD (O'CONNELL'S)",
@@ -184,7 +184,7 @@ namespace DublinBike.Models
                         latitude = 53.357841,
                         longitude = -6.251557
                     },
-                    new Bike
+                    new DublinStation
                     {
                         Number = 68,
                         Name = "HANOVER QUAY",
@@ -196,7 +196,7 @@ namespace DublinBike.Models
 
 
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 74,
                         Name = "OLIVER BOND STREET",
@@ -205,8 +205,8 @@ namespace DublinBike.Models
                         longitude = -6.280531
 
                     },
-                    
-                    new Bike
+
+                    new DublinStation
                     {
                         Number = 87,
                         Name = "COLLINS BARRACKS MUSEUM",
@@ -216,7 +216,7 @@ namespace DublinBike.Models
 
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 84,
                         Name = "BROAKFIELD ROAD",
@@ -226,7 +226,7 @@ namespace DublinBike.Models
 
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 90,
                         Name = "BENSEN STREET",
@@ -236,18 +236,15 @@ namespace DublinBike.Models
 
                     },
 
-                    new Bike
+                    new DublinStation
                     {
                         Number = 11,
                         Name = "EARLSFORT TERRACE",
                         adress = "Eearlsfoer Terrace",
                         latitude = 53.344019,
                         longitude = -6.258371
-
-                    },
-
-
-                );
+                    }
+                    ) ;
                 context.SaveChanges();
             }
         }

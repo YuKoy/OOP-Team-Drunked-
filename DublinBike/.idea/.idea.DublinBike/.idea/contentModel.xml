@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\valpo\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\valpo\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DublinBike.-1249702910.00" t="ExcludeRecursive" />
-    <e p="C:\Users\valpo\OOP-Team-Drunked-\DublinBike" t="IncludeFlat">
+    <e p="C:\Users\valpo\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DublinBike.-1358662422.00" t="ExcludeRecursive" />
+    <e p="C:\Users\valpo\projetOOP\OOP-Team-Drunked-\DublinBike" t="IncludeFlat">
       <e p="DublinBike" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
@@ -23,7 +23,9 @@
         </e>
         <e p="Models" t="Include">
           <e p="DublinStation.cs" t="Include" />
+          <e p="DublinStationGenre.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="SeedData.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -41,6 +43,13 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Bike" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Delete.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />

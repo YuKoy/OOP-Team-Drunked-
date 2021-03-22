@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\red56\\Documents\\prog irland\\OOP\\Mdr\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {}
+    "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {}
   },
   "projects": {
-    "C:\\Users\\red56\\Documents\\prog irland\\OOP\\Mdr\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {
+    "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\red56\\Documents\\prog irland\\OOP\\Mdr\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
+        "projectUniqueName": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
         "projectName": "DublinBike",
-        "projectPath": "C:\\Users\\red56\\Documents\\prog irland\\OOP\\Mdr\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
-        "packagesPath": "C:\\Users\\red56\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\red56\\Documents\\prog irland\\OOP\\Mdr\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\obj\\",
+        "projectPath": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
+        "packagesPath": "C:\\Users\\valpo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\red56\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\valpo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

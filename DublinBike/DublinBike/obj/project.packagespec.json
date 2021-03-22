@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\valpo\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
+    "projectUniqueName": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
     "projectName": "DublinBike",
-    "projectPath": "C:\\Users\\valpo\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
-    "outputPath": "C:\\Users\\valpo\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\obj\\",
+    "projectPath": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
+    "outputPath": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

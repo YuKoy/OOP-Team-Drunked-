@@ -17,9 +17,11 @@
         </e>
         <e p="DublinBike.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="InitialCreate.cs" t="Include" />
+          <e p="20210322093250_Rating.cs" t="Include" />
+          <e p="20210322093250_Rating.Designer.cs" t="Include" />
+          <e p="20210322093330_InitialCreate.cs" t="Include" />
+          <e p="20210322093330_InitialCreate.Designer.cs" t="Include" />
           <e p="MvcBikeContextModelSnapshot.cs" t="Include" />
-          <e p="Rating.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="DublinStation.cs" t="Include" />

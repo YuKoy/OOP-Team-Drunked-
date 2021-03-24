@@ -1,0 +1,113 @@
+﻿@model DublinBikes.Models.BikeStatusViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Bikes" asp-action="Index" method="get">
+    <p>
+        <select asp-for="BikeStatus" asp-items="Model.Status">
+            <option value="">All</option>
+        </select>
+        Name: <input type="text" name="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Number)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].ContractName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Longitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Latitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Banking)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].AvailableBikes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].AvailableStands)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Capacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bikes[0].Rating)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Bikes)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Number)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContractName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Longitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Latitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Banking)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailableBikes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AvailableStands)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Capacity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

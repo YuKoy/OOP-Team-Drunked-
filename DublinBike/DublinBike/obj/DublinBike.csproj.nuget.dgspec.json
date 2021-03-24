@@ -1,34 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {}
+    "C:\\Users\\red56\\Documents\\prog irland\\OOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {
+    "C:\\Users\\red56\\Documents\\prog irland\\OOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
+        "projectUniqueName": "C:\\Users\\red56\\Documents\\prog irland\\OOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
         "projectName": "DublinBike",
-        "projectPath": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
-        "packagesPath": "C:\\Users\\valpo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valpo\\projetOOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\obj\\",
+        "projectPath": "C:\\Users\\red56\\Documents\\prog irland\\OOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\DublinBike.csproj",
+        "packagesPath": "C:\\Users\\red56\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\red56\\Documents\\prog irland\\OOP\\OOP-Team-Drunked-\\DublinBike\\DublinBike\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\valpo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\red56\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net50"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp5.0": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -39,7 +40,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp5.0": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -76,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

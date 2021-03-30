@@ -4,6 +4,7 @@ using DublinBikes.Data;
 using System;
 using System.Linq;
 
+//SeedData
 namespace DublinBikes.Models
 {
     public static class SeedData

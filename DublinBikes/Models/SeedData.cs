@@ -24,6 +24,7 @@ namespace DublinBikes.Models
                     new Bike
                     {
                         Number = 42,
+
                         ContractName = "Dublin",
                         Name = "SMITHFIELD NORTH",
                         Address = "Smithfield North",
